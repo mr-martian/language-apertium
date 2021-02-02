@@ -1,0 +1,22 @@
+name: 'lexd'
+scopeName: 'lexd'
+type: 'tree-sitter'
+parser: 'tree-sitter-lexd'
+
+fileTypes: ['lexd']
+
+comments:
+  start: '# '
+
+scopes:
+  'source_file': 'source.lexd'
+  'pattern_block': 'pattern'
+  'pattern_start': 'keyword.control'
+  'named_pattern_start': 'keyword.control'
+  'lexicon_start': 'keyword.control'
+  'alias': 'keyword.control'
+  'left_sieve': 'keyword.operator'
+  'right_sieve': 'keyword.operator'
+  'colon': 'keyword.operator'
+  'lexicon_string': 'string.quoted'
+  'escaped_char': 'constant.character.escape'
