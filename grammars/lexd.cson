@@ -17,6 +17,22 @@ scopes:
   'alias': 'keyword.control'
   'left_sieve': 'keyword.operator'
   'right_sieve': 'keyword.operator'
+  'pattern_or': 'keyword.operator'
   'colon': 'keyword.operator'
   'lexicon_string': 'string.quoted'
   'escaped_char': 'constant.character.escape'
+  'pattern_operator': 'keyword.operator'
+  '"(", ")"': 'keyword.operator'
+  '"[", "]"': 'keyword.operator'
+  '"-", ","': 'keyword.operator'
+  'tag_distribution_operator': 'keyword.operator'
+  'tag': 'entity.name.function'
+  'lexicon_block > identifier': 'entity.name.function'
+  'pattern_block > identifier': 'entity.name.function'
+  'comment': 'comment'
+  'number': 'constant.number'
+
+folds: [
+  {'type': 'pattern_block'},
+  {'type': 'lexicon_block'}
+]

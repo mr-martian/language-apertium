@@ -6,13 +6,16 @@
         "node": "*"
     },
     "description": "Support of Apertium language data in Atom",
-    "keywords": ["tree-sitter", "apertium"],
+    "keywords": [
+        "tree-sitter",
+        "apertium"
+    ],
     "repository": {
         "type": "git",
         "url": "git@github.com:mr-martian/langauge-apertium.git"
     },
     "license": "GPL-v3.0-or-later",
     "dependencies": {
-        "tree-sitter-lexd": "0.0.1"
+        "tree-sitter-lexd": "0.0.3"
     }
 }
