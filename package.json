@@ -1,5 +1,6 @@
 {
     "name": "language-apertium",
+    "author": "Daniel Swanson",
     "version": "0.0.1",
     "engines": {
         "atom": "*",
@@ -10,10 +11,7 @@
         "tree-sitter",
         "apertium"
     ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:mr-martian/langauge-apertium.git"
-    },
+    "repository": "https://github.com/mr-martian/language-apertium",
     "license": "GPL-v3.0-or-later",
     "dependencies": {
         "tree-sitter-lexd": "0.0.3"
