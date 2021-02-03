@@ -14,6 +14,6 @@
     "repository": "https://github.com/mr-martian/language-apertium",
     "license": "GPL-v3.0-or-later",
     "dependencies": {
-        "tree-sitter-lexd": "0.0.3"
+        "tree-sitter-lexd": "0.0.4"
     }
 }
