@@ -15,6 +15,6 @@
     "license": "GPL-v3.0-or-later",
     "dependencies": {
         "tree-sitter-lexd": "0.0.4",
-        "tree-sitter-cg": "0.0.2"
+        "tree-sitter-cg": "0.0.3"
     }
 }
