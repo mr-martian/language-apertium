@@ -1,0 +1,35 @@
+name: 'twolc'
+scopeName: 'twolc'
+type: 'tree-sitter'
+parser: 'tree-sitter-twolc'
+
+fileTypes: ['twol', 'twoc', 'twolc']
+
+comments:
+  start: '! '
+
+scopes:
+  'source_file': 'source.twolc'
+  'alphabet_header': 'keyword.control'
+  'sets_header': 'keyword.control'
+  'rules_header': 'keyword.control'
+
+  'arrow': 'keyword.operator'
+  'lpar': 'keyword.operator'
+  'rpar': 'keyword.operator'
+  'prefix_op': 'keyword.operator'
+  'suffix_op': 'keyword.operator'
+  'ignore_op': 'keyword.operator'
+  'bool_op': 'keyword.operator'
+  'replace_op': 'keyword.operator'
+  'compose_op': 'keyword.operator'
+
+  'rule_name': 'string'
+
+  'comment': 'comment'
+
+folds: [
+  {'type': 'rule'},
+  {'type': 'alphabet'},
+  {'type': 'sets'}
+]
