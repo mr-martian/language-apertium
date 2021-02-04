@@ -1,0 +1,26 @@
+name: 'cg3'
+scopeNmae: 'cg3'
+type: 'tree-sitter'
+parser: 'tree-sitter-cg'
+
+fileTypes: ['rlx']
+
+comments:
+  start: '# '
+
+scopes:
+  'source_file': 'source.cg3'
+  'section': 'keyword.control'
+  'ruletype': 'keyword.control'
+  'comment': 'comment'
+  '"IF"': 'keyword.control'
+  'eq': 'keyword.operator'
+  'semicolon': 'keyword.operator'
+  'qtag': 'string'
+  'set_op': 'keyword.operator'
+  '"END"': 'keyword.control'
+  'special_list_name': 'keyword.other.special-method'
+  '"STATIC-SETS"': 'keyword.other.special-method'
+  '"MAPPING-PREFIX"': 'keyword.other.special-method'
+  '"SUBREADINGS"': 'keyword.other.special-method'
+  '"PARENTHESES"': 'keyword.other.special-method'
