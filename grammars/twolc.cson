@@ -12,11 +12,22 @@ scopes:
   'source_file': 'source.twolc'
   'alphabet_header': 'keyword.control'
   'sets_header': 'keyword.control'
+  'definitions_header': 'keyword.control'
   'rules_header': 'keyword.control'
+
+  'except': 'keyword.control'
+  'where': 'keyword.control'
+  'variable_keyword': 'keyword.control'
+  'in_keyword': 'keyword.control'
+
+  'locus': 'constant.other'
+  'word_boundary': 'constant.other'
 
   'arrow': 'keyword.operator'
   'lpar': 'keyword.operator'
   'rpar': 'keyword.operator'
+  'loptional': 'keyword.operator'
+  'roptional': 'keyword.operator'
   'prefix_op': 'keyword.operator'
   'suffix_op': 'keyword.operator'
   'ignore_op': 'keyword.operator'
