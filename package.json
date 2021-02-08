@@ -17,6 +17,6 @@
         "tree-sitter-lexd": "0.0.4",
         "tree-sitter-cg": "0.0.3",
         "tree-sitter-twolc": "0.0.3",
-        "tree-sitter-rtx": "0.0.1"
+        "tree-sitter-rtx": "0.0.2"
     }
 }
