@@ -1,0 +1,23 @@
+name: 'rtx'
+scopeName: 'rtx'
+type: 'tree-sitter'
+parser: 'tree-sitter-rtx'
+
+fileTypes: ['rtx']
+
+comments:
+  start: '! '
+
+scopes:
+  'source_file': 'source.rtx'
+  'arrow': 'keyword.operator'
+  'comment': 'comment'
+  'weight': 'constant.numeric'
+  'num': 'variable.parameter'
+  'str_op, bool_op, not': 'keyword.operator'
+  'blank': 'keyword.operator'
+  'if_tok, elif_tok, else_tok, always_tok': 'keyword.control'
+
+folds: [
+  {'type': 'reduce_rule_group'}
+]
